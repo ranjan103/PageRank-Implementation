@@ -4,7 +4,7 @@
     PageRank works by counting the number and quality of links to a page to determine a rough estimate of how important the website is.       The underlying assumption is that more important websites are likely to receive more links from other websites.
 I have made a funciton which does pageRanking and here it is--> (along with explained arguments)
 
-def pagerank(G, alpha=0.85, personalization=None, 
+>>def pagerank(G, alpha=0.85, personalization=None, 
              max_iter=100, tol=1.0e-6, nstart=None, weight='weight', 
              dangling=None): 
              
